@@ -1,0 +1,39 @@
+.hero{
+  background-color: #18191d;
+  color: white;
+  padding: 20px 170px;
+  padding-bottom: 5%;
+  
+}
+.heroimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.heroimg img{
+  width: 1070px;
+  height: 576px;
+  margin-bottom: 5%;
+}
+.heroLeft{
+  width: 55%;
+}
+.heroLeft h1{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.heroLeft p{
+  padding-top: 4%;
+  color: #a4a7b1;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.8;
+}
+
+.heroLeft button{
+  padding-top: 5%;
+  font-weight: bold;
+}

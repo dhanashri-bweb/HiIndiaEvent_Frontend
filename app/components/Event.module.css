@@ -1,0 +1,59 @@
+.body {
+  background-color: #18191d;
+}
+
+.artist {
+  background-color: #18191d;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 170px;
+}
+
+.artistImg img {
+  max-width: 270px;
+  height: 220px;
+  border-radius: 25px;
+}
+
+
+
+.name h6 {
+  margin-top: 30px;
+  color: #aaa;
+  font-size: 16px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  font-style: italic;
+}
+
+.name h2 {
+  
+  width: 150%;
+}
+
+.info{
+  padding-top: 7%;
+  width:40%;
+}
+
+.info button {
+  background-color: #910a14;
+  border: 0.5px solid rgb(194, 194, 194);
+  color: white;
+  padding: 13px 30px;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-size: 13px;
+}
+
+.info button:hover {
+  background-color: white;
+  color: black;
+}
+
+.info p {
+  font-size: 16px;
+  color: #a4a7b1;
+}

@@ -1,0 +1,16 @@
+.footer2{
+  
+  background-color: #111215;
+  color: white;
+  padding: 1% 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.footer2 p{
+  font-size: 13px;
+  color: #a4a7b1;
+  margin: auto;
+
+}
