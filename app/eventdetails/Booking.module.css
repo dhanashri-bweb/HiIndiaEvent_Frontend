@@ -1,0 +1,130 @@
+
+.inquiry {
+  background-color: #111215;
+  color: white;
+  padding: 8% 170px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.inputContainer{
+  margin-top: 2%;
+  
+}
+.checkContainer{
+  margin-top: 2%;
+  display: flex;
+  align-items: center; /* Align items vertically centered */
+  gap: 20px; 
+}
+.inputContainer option{
+  color: black;
+  background-color: white;
+}
+
+.inquiry button {
+  background-color: #910a14;
+  border: 0.5px solid rgb(194, 194, 194);
+  color: white;
+  padding: 13px 0;
+  width: 18%; /* Button width */
+  border-radius: 5px;
+  transition: 0.3s;
+  font-size: 13px;
+  margin: 30px auto 0; /* Center the button */
+  display: block; /* Ensure proper alignment */
+  text-align: center;
+}
+
+.inquiry button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Form Styles */
+.inquiryForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 80%; /* Adjust form width */
+  margin-top: 20px;
+}
+
+.formRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px; 
+  margin-bottom: 20px;
+  width: 100%;
+  margin-left: -7%;
+}
+
+.inputField {
+  flex: 1; 
+  background: rgba(255, 255, 255, 0.01);
+  color: white;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 20px; 
+  border-radius: 0;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s;
+  margin-top: 10px;
+}
+
+.inputField:focus {
+  border-bottom: 2px solid #910a14;
+}
+
+.messageField {
+  resize: none;
+  height: 120px; /* Adjusted height for the message field */
+}
+
+/* Full-width fields */
+.fullWidth {
+  width: 100%;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.heading{
+  text-align: center;
+}
+.heading span {
+  font-size: 18px;
+  letter-spacing: 10px;
+  color: #a4a7b1;
+}
+.sTitle{
+  font-size: 48px;
+  color: red;
+}
+.submitButton{
+  font-size: 20px;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center; 
+  gap: 5px; 
+}
+
+.checkbox {
+  margin: 0; 
+}
+.totalAmount{
+  margin-left: 30%;
+  display: flex;
+  align-items: center;
+  width: 350px;
+  gap: 5%;
+}
+
+.totalAmount input{
+  width: 200px;
+}

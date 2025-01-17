@@ -19,6 +19,8 @@
 }
 .heroLeft{
   width: 55%;
+  margin-left: 5%;
+  margin-right: 3%;
 }
 .heroLeft h1{
   font-size: 30px;
@@ -36,4 +38,31 @@
 .heroLeft button{
   padding-top: 5%;
   font-weight: bold;
+}
+.heroContent{
+  display: flex;
+  align-items: center;
+ 
+}
+.heroDetails p{
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 300px;
+  height: 74px;
+  box-shadow: rgba(255, 255, 255, 0.2) 1px 0px 8px;
+  background-color: transparent;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 10px;
+  margin: 30px;
+}
+
+.heroDetails iframe{
+  border-radius: 10px;
+  
+  margin: 30px;
 }
