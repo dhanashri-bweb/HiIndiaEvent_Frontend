@@ -1,7 +1,7 @@
 .gBody {
   background-color: #111215;
   color: white;
-  padding: 8% 170px;
+  padding: 8% 0px;
 }
 
 .heading {
@@ -20,8 +20,7 @@
 }
 
 .gImages img {
-  width: 100%; /* Ensure responsiveness */
-  height: auto;
+  width: 100%;
   transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
   cursor: pointer;
 }

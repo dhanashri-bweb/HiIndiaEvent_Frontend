@@ -100,7 +100,7 @@ const Inquiry: React.FC = () => {
               className={styles.inputField}
               value={formData.name}
               onChange={handleInputChange}
-              style={{width:"303px", height:"64px"}}
+            
             />
             {errors.name && <p className={styles.errorText}>{errors.name}</p>}
           </div>
@@ -113,7 +113,7 @@ const Inquiry: React.FC = () => {
               className={styles.inputField}
               value={formData.email}
               onChange={handleInputChange}
-              style={{width:"303px", height:"64px"}}
+              
             />
             {errors.email && <p className={styles.errorText}>{errors.email}</p>}
           </div>
@@ -125,7 +125,7 @@ const Inquiry: React.FC = () => {
               className={styles.inputField}
               value={formData.phone}
               onChange={handleInputChange}
-              style={{width:"303px", height:"64px"}}
+              
             />
           </div>
         </div>

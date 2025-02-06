@@ -1,6 +1,6 @@
-import React from 'react';
-import Image from 'next/image';
-import styles from './About.module.css';
+import React from "react";
+import Image from "next/image";
+import styles from "./About.module.css";
 import about from "../../public/home-about.jpg";
 
 const About: React.FC = () => {
@@ -23,7 +23,7 @@ const About: React.FC = () => {
         <button>Read More</button>
       </div>
       <div className={styles.aboutRight}>
-        <Image src={about} alt="About Hi India" width={400} height={464} />
+        <Image src={about} alt="About Hi India" className={styles.image} />
         <div className={styles.established}>
           <p>
             We are Established Since, <span>2008</span>

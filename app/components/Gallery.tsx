@@ -30,8 +30,7 @@ const Gallery: React.FC = () => {
                   src={image} 
                   alt={`Gallery image ${index + 1}`} 
                   className={styles.imgFluid} 
-                  width={370} 
-                  height={273} 
+                   
                 />
               </Col>
             ))}

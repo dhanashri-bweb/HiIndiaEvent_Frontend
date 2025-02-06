@@ -1,12 +1,14 @@
 .sbody {
   background-color: #18191d;
   color: white;
-  padding: 20px 170px;
-  padding-bottom: 5%;
+
+  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  margin: 0 auto;
+  padding: 60px 0px
 }
 
 .heading {
@@ -41,11 +43,11 @@
   position: relative;
   display: inline-block;
 }
-.pb5{
+.pb5 {
   padding-bottom: 10%;
 }
 .imageContainer img {
-  width: 570px;
+  width: 100%;
   height: auto;
   transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
   cursor: pointer;
@@ -91,4 +93,11 @@
 .sbody button:hover {
   background-color: white;
   color: black;
+}
+
+@media (max-width: 768px) {
+  .images {
+    flex-direction: column;
+    align-items: center;
+  }
 }

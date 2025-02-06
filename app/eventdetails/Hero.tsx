@@ -17,6 +17,7 @@ const Hero: React.FC = () => {
 
   return (
     <div className={styles.hero}>
+      
       <div className={styles.heroimg}>
         <Image src={heroimg} alt="hero-img" />
       </div>

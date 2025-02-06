@@ -2,7 +2,7 @@
   
   background-color: #111215;
   color: white;
-  padding: 1% 170px;
+  padding: 1% 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,4 +13,13 @@
   color: #a4a7b1;
   margin: auto;
 
+}
+
+@media (max-width:768px) {
+  .footer2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
 }

@@ -4,12 +4,50 @@
   color: white;
   align-items: center;
   justify-content: space-between;
-  padding: 8% 170px;
+  padding: 8% 10%;
+  flex-wrap: wrap; /* Allows content to wrap for smaller screens */
+}
+
+.aboutLeft,
+.aboutRight {
+  flex: 1;
+  margin: 10px; /* Add some spacing for smaller screens */
+}
+
+.aboutLeft {
+  max-width: 100%; /* Ensures it occupies full width on smaller screens */
+}
+
+.aboutRight {
+  position: relative;
+  text-align: center; /* Center the image and content for smaller screens */
 }
 
 .aboutRight img {
-  width: 400px;
-  height: 464px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.established {
+  position: absolute;
+  bottom: 46px;
+  left: -102px;
+  background-color: white;
+  padding: 25px 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block; /* Default is visible */
+}
+
+.established p {
+  margin: 0;
+  font-size: 14px;
+  color: black;
+}
+
+.established span {
+  font-weight: bold;
+  font-size: 40px;
 }
 
 .aboutLeft button {
@@ -43,34 +81,33 @@
 
 .aboutLeft .abInfo {
   color: #a4a7b1;
-  width: 570px;
+  margin-bottom: 20px;
 }
 
-.aboutRight {
-  position: relative; /* Makes it the parent container for absolute positioning */
-  display: inline-block; /* Ensures it wraps around the content */
+@media (max-width: 991px) {
+  /* Tablet view: both sections take full width */
+  .about {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .aboutLeft,
+  .aboutRight {
+    flex: none;
+    max-width: 100%;
+  }
+
+  .established {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-top: 10px;
+  }
 }
 
-.aboutRight img {
-  display: block; /* Ensures no extra space around the image */
-}
-
-.established {
-  position: absolute;
-  bottom: 46px;
-  left: -102px;
-  background-color: white;
-  padding: 25px 30px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.established p {
-  margin: 0; /* Removes default margin */
-  font-size: 14px; /* Adjust font size */
-  color: black; /* Text color */
-}
-
-.established span {
-  font-weight: bold; /* Makes the year bold */
-  font-size: 40px;
+@media (max-width: 576px) {
+  /* Mobile view: hide the "Established" text */
+  .established {
+    display: none;
+  }
 }
